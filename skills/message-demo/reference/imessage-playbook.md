@@ -12,7 +12,9 @@ applies to SMS and Apple Messages for Business too; WhatsApp and Telegram notes 
 - While the agent is typing, the typing pill joins their group and takes the tail from their last
   bubble. Your own bubbles never lose a tail to it.
 - Photos and cards don't carry tails, and a card under the text (Apple Pay, a list picker, a time card)
-  ends the run, so that text has no tail either. A link preview is a bubble and takes the tail.
+  or quick replies (`buttons`) under it end the run, so that text has no tail either. A link preview is
+  a bubble and takes the tail.
+- A tapback on a photo stack sits on the stack's top corner, above the photos, as on any bubble.
 - One to three emoji alone (`"🙏"`, `"☕️🎉"`) draw big with no bubble. Mix words in to keep a bubble.
 - Split long replies into two or three agent messages. Two short bubbles in a group look more real
   than one wall of text, and the tail lands on the last.

@@ -14,6 +14,10 @@ When someone says "make a demo of …", do the whole thing: write the script fro
 reach for the native pieces below wherever they make it read as real, record it, check a still, and
 give them the MP4's path.
 
+**This skill is everything you need.** Don't design or build a phone, bubbles or animations, and
+don't reach for UI, design, animation or iMessage skills: the phone, every app's look and all the
+motion are already in `renderer/`. Your whole job is the script.
+
 This skill's folder (where this SKILL.md lives) holds `examples/` (working scripts per app, images in
 `examples/media/`), `scripts/record.mjs`, `scripts/link.mjs`, `reference/imessage-playbook.md`, and
 `renderer/`, the phone itself, which `record.mjs` films.
@@ -66,7 +70,8 @@ take image URLs, or paths relative to the script (copy any example images you re
 | `timestamp: "Today 6:04 PM"` | a time header above the message; it also starts a new group |
 
 - Tails follow Apple's rule, so you never set them: only the last bubble of a run from one sender
-  has one, and a card after the text (Apple Pay, a picker) ends the run with no tail.
+  has one, and a card after the text (Apple Pay, a picker) or quick replies under it end the run with
+  no tail.
 - Timing, optional per message: `delay` (ms before it), `typing` (`false` to send at once, or ms).
   Script-level: `contact.avatar`, `contact.subtitle` (WhatsApp/Telegram), `contact.verified`,
   `time` (status bar clock, default `9:41`), `hold` (ms the finished thread stays, default 2500).

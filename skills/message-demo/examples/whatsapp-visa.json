@@ -1,0 +1,49 @@
+{
+  "channel": "whatsapp",
+  "contact": {
+    "name": "Visa Help",
+    "avatar": "media/visa-help.svg",
+    "verified": true,
+    "subtitle": "Business account"
+  },
+  "messages": [
+    {
+      "from": "me",
+      "text": "my visa appointment got cancelled, can you find me another?"
+    },
+    {
+      "from": "agent",
+      "replyTo": 0,
+      "text": "Booked you for Thursday at 9:30 at the downtown office. Here's what to bring:"
+    },
+    {
+      "from": "agent",
+      "voice": {
+        "duration": "0:48"
+      },
+      "delay": 500
+    },
+    {
+      "from": "agent",
+      "file": {
+        "name": "Checklist-DS-160.pdf",
+        "detail": "2 pages · PDF · 96 KB"
+      },
+      "delay": 500,
+      "typing": false
+    },
+    {
+      "from": "agent",
+      "text": "Want a reminder the day before?",
+      "buttons": [
+        "Yes, remind me",
+        "No thanks"
+      ]
+    },
+    {
+      "from": "me",
+      "text": "Yes, remind me",
+      "reaction": "heart"
+    }
+  ]
+}

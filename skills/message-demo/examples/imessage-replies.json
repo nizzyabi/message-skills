@@ -1,0 +1,15 @@
+{
+  "channel": "imessage",
+  "contact": { "name": "Northside Roasters", "avatar": "media/northside-roasters.svg" },
+  "messages": [
+    { "from": "me", "text": "where's my order? it was due today", "reaction": "📦" },
+    { "from": "agent", "text": "On it, checking order 1048", "replyTo": 0 },
+    { "from": "me", "text": "no rush lol" },
+    { "from": "agent", "text": "It's out for delivery and at your door by 6 PM", "replyTo": 1 },
+    { "from": "me", "text": "can they leave it with the doorman?", "reaction": "like" },
+    { "from": "agent", "text": "Done. I added a note for the driver", "replyTo": 4 },
+    { "from": "me", "text": "you're the best", "reaction": "heart" },
+    { "from": "me", "timestamp": "Today 6:04 PM", "text": "it's here!! smells amazing", "delay": 1400 },
+    { "from": "agent", "text": "☕️🎉", "reaction": "laugh", "reactionBy": "me" }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "channel": "telegram",
+  "contact": {
+    "name": "Show Buddy",
+    "avatar": "media/show-buddy.svg",
+    "subtitle": "bot"
+  },
+  "messages": [
+    {
+      "from": "me",
+      "text": "where's my next meeting?"
+    },
+    {
+      "from": "agent",
+      "text": "Booth 214, back left. Your 2:15 is with Dr. Ruiz from Bayview Vet."
+    },
+    {
+      "from": "me",
+      "text": "just met her, she wants pricing for 3 clinics",
+      "reaction": "🔥"
+    },
+    {
+      "from": "agent",
+      "replyTo": 2,
+      "text": "Saved to your notes. Their deck from last year:",
+      "link": {
+        "url": "https://bayview.example/deck",
+        "siteName": "Bayview Vet",
+        "title": "Lab turnaround review 2025",
+        "description": "Average results in 3.2 days across 4 sites."
+      }
+    },
+    {
+      "from": "agent",
+      "text": "Want me to draft the quote?",
+      "buttons": [
+        "Draft quote",
+        "Later"
+      ],
+      "delay": 500
+    },
+    {
+      "from": "me",
+      "text": "🚀",
+      "delay": 800
+    }
+  ]
+}

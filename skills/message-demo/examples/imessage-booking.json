@@ -1,0 +1,47 @@
+{
+  "channel": "imessage",
+  "contact": {
+    "name": "Juno",
+    "avatar": "media/juno.svg"
+  },
+  "messages": [
+    {
+      "from": "me",
+      "text": "can you get me a table for 4 tonight? somewhere near soho"
+    },
+    {
+      "from": "agent",
+      "text": "Lucien has two times open. Which works?",
+      "buttons": [
+        "8:15 PM",
+        "8:45 PM"
+      ]
+    },
+    {
+      "from": "me",
+      "text": "8:15",
+      "reaction": "👍"
+    },
+    {
+      "from": "agent",
+      "text": "Booked for 4 at 8:15. Here's the spot:",
+      "link": {
+        "url": "https://maps.apple.com/?q=Lucien",
+        "title": "Lucien · 14 1st Ave",
+        "icon": "media/map-pin.svg"
+      }
+    },
+    {
+      "from": "agent",
+      "voice": {
+        "duration": "0:07",
+        "transcript": "Ask for Marco when you get there, I told him it's a birthday. Dessert's on them."
+      },
+      "delay": 900
+    },
+    {
+      "from": "me",
+      "text": "legend"
+    }
+  ]
+}

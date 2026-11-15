@@ -1,0 +1,48 @@
+{
+  "channel": "imessage",
+  "contact": {
+    "name": "Maison Solenne",
+    "avatar": "media/maison-solenne.svg"
+  },
+  "messages": [
+    {
+      "from": "me",
+      "images": [
+        "media/bag-black.webp"
+      ]
+    },
+    {
+      "from": "me",
+      "text": "anything like this in cognac under $600?",
+      "delay": 300
+    },
+    {
+      "from": "agent",
+      "images": [
+        "media/bag-cognac.webp",
+        "media/bag-black.webp",
+        "media/bag-wine.webp"
+      ],
+      "text": "Three that fit. The cognac is our bestseller:"
+    },
+    {
+      "from": "me",
+      "text": "the cognac, gift wrapped please",
+      "reaction": "❤️"
+    },
+    {
+      "from": "agent",
+      "payment": {
+        "amount": "$480.00",
+        "label": "Cognac tote · gift wrapped",
+        "merchant": "Maison Solenne",
+        "sheet": true
+      }
+    },
+    {
+      "from": "agent",
+      "text": "Paid. It ships tomorrow and you'll get tracking here.",
+      "typing": 900
+    }
+  ]
+}

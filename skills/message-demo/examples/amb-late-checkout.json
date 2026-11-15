@@ -1,0 +1,19 @@
+{
+  "channel": "amb",
+  "contact": { "name": "Harbor Hotel", "avatar": "media/harbor-hotel.svg", "verified": true },
+  "messages": [
+    { "from": "me", "text": "any chance of a late checkout tomorrow?" },
+    { "from": "agent", "text": "Of course. Pick a time and it's yours:", "picker": {
+      "title": "Late checkout", "subtitle": "Room 412 · Tomorrow",
+      "options": [
+        { "label": "1:00 PM", "detail": "Free" },
+        { "label": "3:00 PM", "detail": "$40", "applePay": true },
+        { "label": "6:00 PM", "detail": "$90" }
+      ]
+    } },
+    { "from": "me", "text": "3:00 PM · $40", "selected": "Late checkout" },
+    { "from": "agent", "payment": { "amount": "$40.00", "label": "Late checkout · Room 412", "merchant": "Harbor Hotel", "sheet": true }, "typing": 900 },
+    { "from": "agent", "text": "Done. Checkout is 3:00 PM tomorrow. Enjoy the rest of your stay!", "typing": 1000 },
+    { "from": "me", "text": "perfect, thank you!", "reaction": "👍" }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "channel": "sms",
+  "contact": { "name": "Bright Smile Dental" },
+  "messages": [
+    { "from": "agent", "text": "Hi Sam, reminder: cleaning with Dr. Patel tomorrow at 10:30 AM. Reply C to confirm or R to reschedule.", "typing": false },
+    { "from": "me", "text": "R" },
+    { "from": "agent", "text": "No problem. Thursday 9:00 AM or Friday 2:15 PM?" },
+    { "from": "me", "text": "friday works" },
+    { "from": "agent", "text": "You're set:", "schedule": { "title": "Cleaning with Dr. Patel", "subtitle": "Fri, Nov 6 · 2:15 PM", "weekday": "FRI", "day": "6" } },
+    { "from": "agent", "file": { "name": "New-patient-forms.pdf", "detail": "PDF Document · 212 KB" }, "text": "Fill these in before you come, it saves 10 minutes.", "delay": 600, "typing": false }
+  ]
+}
